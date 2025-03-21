@@ -1,0 +1,14 @@
+{
+    "pages": [
+        {
+            "name": "Tenebrous City Attack",
+            "url": "newsFeed.html",
+            "image": "#"
+        },
+        {
+            "name": "Spin Stations",
+            "url": "newsFeedSpinStation.html",
+            "image": "#"
+        }
+    ]
+}

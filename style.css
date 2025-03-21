@@ -1,10 +1,10 @@
 body {
-    background-image: linear-gradient(hsl(48, 70%, 67%), hsl(23, 70%, 40%));
+    background-image: linear-gradient(hsl(48, 60%, 67%), hsl(23, 60%, 40%));
     background-repeat: no-repeat;
     color: #000055;
 
-
     height: 100%;
+    min-height: 100vh;
 }
 
 #topBar {
@@ -27,7 +27,7 @@ body {
     text-align: center;
     align-content: center;
 
-    background-color: rgba(255, 255, 255, .4);
+    background-color: rgba(255, 255, 255, .5);
 
     height: 30%;
 }
@@ -40,7 +40,7 @@ body {
 
 #mainContent {
     display: grid;
-    grid-template-columns: 1fr 8fr 1fr;
+    grid-template-columns: 1fr 7fr 1fr;
     justify-items: center;
 }
 
@@ -48,7 +48,7 @@ body {
     width: 75%;
     padding: 1rem;
 
-    background-color: rgba(255, 255, 255, .4);
+    background-color: rgba(255, 255, 255, .5);
 }
 
 .articleHeader {
@@ -77,6 +77,12 @@ body {
 .ads {
     display: grid;
     grid-template-columns: 1fr;
+    background-color: rgba(255, 255, 255, .25);
+}
+
+.ad {
+    padding: 1rem;
+    border: 1px solid black;
 }
 
 .articleDisclaimer {
