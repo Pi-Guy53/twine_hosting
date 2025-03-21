@@ -1,4 +1,4 @@
-let mainAd = document.querySelector("#mainAd");
+let mainAd = document.querySelector("#mainAdd");
 
 getJsonFile();
 
@@ -16,8 +16,8 @@ async function getJsonFile() {
         console.log(json["pages"][i]);
 
         let element = document.createElement("div");
-        element.id = "ad" + i;
-        element.className = "ad";
+        element.id = "add" + i;
+        element.className = "add";
         element.innerHTML = `<a href = ${json["pages"][i]["url"]}>${json["pages"][i]["name"]} <img src = "${json["pages"][i]["image"]}"></a>`;
 
         mainAd.appendChild(element);
