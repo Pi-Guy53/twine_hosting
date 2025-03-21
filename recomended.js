@@ -1,8 +1,8 @@
-let mainAd = document.querySelector("#mainAdd");
-
 getJsonFile();
 
 async function getJsonFile() {
+    let mainSide = document.querySelector("#mainSide");
+
     const requestURL = "recomended.json";
     const request = new Request(requestURL);
 
@@ -16,10 +16,10 @@ async function getJsonFile() {
         console.log(json["pages"][i]);
 
         let element = document.createElement("div");
-        element.id = "add" + i;
-        element.className = "add";
+        element.id = "sideBar" + i;
+        element.className = "sideBar";
         element.innerHTML = `<a href = ${json["pages"][i]["url"]}>${json["pages"][i]["name"]} <img src = "${json["pages"][i]["image"]}"></a>`;
 
-        mainAd.appendChild(element);
+        mainSide.appendChild(element);
     }
 }

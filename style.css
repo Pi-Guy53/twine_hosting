@@ -74,13 +74,13 @@ body {
     font-size: 16pt;
 }
 
-.adds {
+.sideBars {
     display: grid;
     grid-template-columns: 1fr;
     background-color: rgba(255, 255, 255, .25);
 }
 
-.add {
+.sideBar {
     padding: 1rem;
     border: 1px solid black;
 }
