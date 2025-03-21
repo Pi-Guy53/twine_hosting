@@ -9,6 +9,11 @@
             "name": "Spin Stations",
             "url": "newsFeedSpinStation.html",
             "image": "#"
+        },
+        {
+            "name": "Torus Sector",
+            "url": "newsTorusSector.html",
+            "image": "#"
         }
     ]
 }
