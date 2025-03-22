@@ -3,7 +3,7 @@
         {
             "name": "Tenebrous City Attack",
             "url": "newsFeed.html",
-            "image": "#"
+            "image": "images/ashish-r-mishra-3GJGnuysktY-unsplash.jpg"
         },
         {
             "name": "Spin Stations",
@@ -13,7 +13,7 @@
         {
             "name": "Torus Sector",
             "url": "newsTorusSector.html",
-            "image": "#"
+            "image": "images/nasa-hubble-space-telescope-nZF0xFE0Z8o-unsplash.jpg"
         }
     ]
 }
