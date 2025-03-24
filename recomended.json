@@ -14,6 +14,11 @@
             "name": "Torus Sector",
             "url": "newsTorusSector.html",
             "image": "images/nasa-hubble-space-telescope-nZF0xFE0Z8o-unsplash.jpg"
+        },
+        {
+            "name": "NTRDs",
+            "url": "newsFeedNTRD.html",
+            "image": "#"
         }
     ]
 }

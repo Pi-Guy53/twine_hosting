@@ -84,7 +84,7 @@ body {
 }
 
 .sideBar img {
-    width: 100%;
+    max-height: 75px;
 }
 
 .articleDisclaimer {
